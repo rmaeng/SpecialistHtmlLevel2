@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+#wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.left {
+    width: 317px;
+    margin-left: 58px;
+    float: left;
+}
+
+.left>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #BB2E2E;
+    margin-bottom: 25px;
+    margin-top: 38px;
+}
+
+.left>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1C5598;
+    margin-bottom: 40px;
+}
+
+.left>div {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    background: #F48926;
+    padding: 19px 32px 23px 27px;
+    width: 236px;
+    height: 126px;
+}
+
+.left>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #1F9814;
+    border-radius: 5px;
+    padding: 8px 23px 7px 25px;
+    border-style: none;
+    margin-top: 98px;
+}
+
+.right {
+    float: left;
+    margin-left: 18px;
+}
+
+.right>div {
+    background: #C4C4C4;
+    width: 68px;
+    height: 66px;
+    margin-top: 20px;
+}
+
+.right>div:first-child {
+    margin-top: 47px;
+}
