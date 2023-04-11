@@ -1,0 +1,94 @@
+.wrapper {
+    width: 1109px;
+    height: 2322px;
+    margin: auto;
+}
+
+.header {
+    margin-top: 46px;
+}
+
+.header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #42578E;
+    margin-bottom: 17px;
+}
+
+.header p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-left: 108px;
+    margin-right: 109px;
+}
+
+.banner {
+    margin-top: 41px;
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+.banner .big {
+    margin-bottom: 40.5px;
+}
+
+.banner .mini img:not(:last-child) {
+    margin-right: 25px;
+}
+
+.cards {
+    margin-top: 76.5px;
+    margin-left: 43px;
+    margin-right: 27px;
+}
+
+.cards h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 68px;
+    color: #00AD45;
+    margin-bottom: 67px;
+}
+
+.cards .card {
+    float: left;
+    width: 286.33px;
+}
+
+.cards .card:not(:nth-child(3n+1)) {
+    margin-right: 90px;
+}
+
+.cards .card:not(:nth-child(-n+4)) {
+    margin-top: 86.81px;
+}
+
+.cards .card h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 41px;
+    color: #B621B6;
+    margin: 34px 0px;
+}
+
+.cards .card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
