@@ -11,13 +11,14 @@ body {
 #wrapper {
     width: 675px;
     height: 352px;
+    display: table;
 }
 
 .left {
     width: 369px;
     height: 352px;
     background: url(img/foto.png);
-    float: left;
+    display: table-cell;
     padding-left: 32px;
 }
 
@@ -58,7 +59,7 @@ body {
     width: 306px;
     height: 352px;
     background-color: #FFFFFF;
-    float: left;
+    display: table-cell;
     padding-left: 50px;
 }
 
@@ -97,6 +98,7 @@ body {
 
 .right .friends {
     margin-top: 55px;
+    display: table;
 }
 
 .right .friends>header {
@@ -106,11 +108,12 @@ body {
     font-size: 13px;
     line-height: 15px;
     color: #444444;
-    margin-bottom: 12px;
+    display: table-header-group;
 }
 
 .right .faces {
-    float: left;
+    display: table-cell;
+    padding-top: 12px;
 }
 
 .right .faces img:first-child {
@@ -128,7 +131,8 @@ body {
     font-size: 13px;
     line-height: 15px;
     color: #444444;
-    float: right;
-    margin-top: 15px;
-    margin-right: 43px;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 27px;
+    padding-left: 19px;
 }
