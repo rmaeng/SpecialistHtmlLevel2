@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+#wrapper {
+    width: 675px;
+    height: 352px;
+}
+
+.left {
+    width: 369px;
+    height: 352px;
+    background: url(img/foto.png);
+    float: left;
+    padding-left: 32px;
+}
+
+.left>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 31px 198px 8px 0;
+}
+
+.left>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D2D2D2;
+}
+
+.left>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #28A4AC;
+    border-radius: 5px;
+    padding: 8px 19px 8px 10px;
+    border-style: none;
+    margin-top: 203px;
+}
+
+.right {
+    width: 306px;
+    height: 352px;
+    background-color: #FFFFFF;
+    float: left;
+    padding-left: 50px;
+}
+
+.right>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 31px 80px 8px 0;
+}
+
+.right>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #444444;
+}
+
+.right .message a {
+    color: #28A4AC;
+}
+
+.right .message {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #444444;
+    margin: 51px 72px 0 0;
+}
+
+.right .friends {
+    margin-top: 55px;
+}
+
+.right .friends>header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #444444;
+    margin-bottom: 12px;
+}
+
+.right .faces {
+    float: left;
+}
+
+.right .faces img:first-child {
+    margin-left: 3px;
+}
+
+.right .faces img:not(:last-child) {
+    margin-right: 6px;
+}
+
+.right .friends>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #444444;
+    float: right;
+    margin-top: 15px;
+    margin-right: 43px;
+}
