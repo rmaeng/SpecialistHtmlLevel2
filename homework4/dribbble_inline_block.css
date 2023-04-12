@@ -17,8 +17,9 @@ body {
     width: 369px;
     height: 352px;
     background: url(img/foto.png);
-    float: left;
+    display: inline-block;
     padding-left: 32px;
+    margin-right: -4px;
 }
 
 .left>h1 {
@@ -58,7 +59,8 @@ body {
     width: 306px;
     height: 352px;
     background-color: #FFFFFF;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     padding-left: 50px;
 }
 
@@ -110,7 +112,8 @@ body {
 }
 
 .right .faces {
-    float: left;
+    display: inline-block;
+    margin-right: -4px;
 }
 
 .right .faces img:first-child {
@@ -128,7 +131,8 @@ body {
     font-size: 13px;
     line-height: 15px;
     color: #444444;
-    float: right;
+    display: inline-block;
+    vertical-align: top;
     margin-top: 15px;
-    margin-right: 43px;
+    margin-left: 19px;
 }
