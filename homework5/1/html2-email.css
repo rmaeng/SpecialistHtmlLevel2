@@ -1,0 +1,242 @@
+#wrapper {
+    width: 1440px;
+    margin: auto;
+}
+
+.social {
+    background: #44A4DA;
+    height: 160px;
+}
+
+.social>ul {
+    display: flex;
+}
+
+.social>ul>li {
+    height: 70px;
+    width: 70px;
+}
+
+header>.social>ul {
+    padding: 47px 969px 43px 121px;
+}
+
+main {
+    padding: 35px 120px 83px 120px;
+}
+
+.banner {
+    position: relative;
+
+}
+
+.banner-message {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    color: #00314D;
+    position: absolute;
+    top: 242px;
+    right: 190px;
+    bottom: 41px;
+    left: 190px;
+    padding: 54px 46px 0 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.banner-message h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45.53px;
+}
+
+.banner-message p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31.64px;
+}
+
+.activities {
+    margin-top: 128px;
+}
+
+.activities h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #00314D;
+    height: 78px;
+}
+
+.activities .cards {
+    display: flex;
+    padding-left: 3px;
+}
+
+.activities .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activities .card:not(:last-child) {
+    margin-right: 24px;
+}
+
+.activities img {
+    height: 380px;
+}
+
+.activities .card>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #00314D;
+    height: 90px;
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+
+.activities .card>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 205px;
+    height: 64px;
+    background: #44A4DA;
+    border-radius: 18px;
+    border-style: none;
+}
+
+.activities .reminder {
+    background: #44A4DA;
+    border-radius: 41px;
+    margin-top: 102px;
+    padding: 48px 26px 25px 33px;
+}
+
+.activities .reminder>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.activities .reminder>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    height: 96px;
+}
+
+.updates {
+    margin-top: 128px;
+}
+
+.updates h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #00314D;
+    height: 87px;
+}
+
+.updates .cards {
+    margin-top: 10px;
+}
+
+.updates .card {
+    display: flex;
+}
+
+.updates .card:not(:first-child) {
+    margin-top: 64px;
+}
+
+.updates .card>img {
+    height: 331px;
+}
+
+.updates .card-message {
+    margin-left: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 23px;
+}
+
+.updates .card-message>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #00314D;
+}
+
+.updates .card-message>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 25px 0 53px 0;
+}
+
+.updates .card-message>button {
+    background: #44A4DA;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-style: none;
+    width: 172px;
+    height: 48px;
+}
+
+footer>.social>ul {
+    padding: 47px 508px 43px 512px;
+}
+
+.links {
+    padding: 29px 208px 29px 215px;
+}
+
+.links>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links>ul>li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
